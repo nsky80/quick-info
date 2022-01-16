@@ -1,4 +1,5 @@
 import photo from "../images/nerd.png"
+import linkedin from "../images/linkedin.png"
 
 export default function Info() {
     return (
@@ -11,10 +12,11 @@ export default function Info() {
                 <br />
                 <div className="row">
                     <div className="col-2-1">
-                        <button type="button" className="button-info-email">Email</button>
+                        <a href="#" className="button-info-email">Email</a>
                     </div>
                     <div className="col-2-2">
-                        <button type="button" className="button-info-linkedin">LinkedIn</button>
+                        <a href="https://www.linkedin.com/in/nsky80/" className="button-info-linkedin">
+                            LinkedIn</a>
                     </div>
                 </div>
             </div>
