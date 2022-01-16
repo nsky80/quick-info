@@ -68,7 +68,6 @@ Dividing UI into 4 parts
   margin: 10%;
   border-radius: 10px;
   text-align: center;
-
 }
 
 .info{
@@ -125,7 +124,21 @@ Dividing UI into 4 parts
 }
 
 
+.about-interests{
+  text-align: left;
+  padding: 0px 28px 0px 28px;
+}
 
+.about-interests > h3{
+  padding-top: 10px;
+}
+
+.about-interests > p{
+  font-weight: lighter;
+  font-size: small;
+  padding-bottom: 15px;
+  color: #939396;
+}
 
 
 
