@@ -1,6 +1,6 @@
 export default function About(){
     return (
-        <div>
+        <div className="info">
             <h3>About</h3>
             <p>Lorum Ipsum dorom sit..</p>
         </div>

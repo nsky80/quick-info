@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
 import Info from './components/Info';
@@ -26,13 +25,20 @@ import Footer from './components/Footer';
 //   );
 // }
 
-function App(){
-  return(
-    <div className='container'>
-      <Info />
-      <About />
-      <Interests />
-      <Footer />
+
+
+function App() {
+  return (
+    <div className='row'>
+      <div className="col-1 col-s-1"></div>
+      <div className="col-2 col-s-2">
+        <div className='container'>
+        <Info />
+        <About />
+        <Interests />
+        <Footer /></div>
+      </div>
+      <div className="col-3 col-s-3"></div>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 export default function Footer(){
     return (
-        <div>
+        <div className="footer">
             <a>Github</a>
             <a>Instagram</a>
             <a>Twitter</a>
